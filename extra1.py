@@ -39,12 +39,12 @@ def ApproxMcCore(F,pivot):
     
     l = int(floor*ln(pivot)-1)
     i=l-1
-    while (1<=S<=pivot)||(i=n)
+    while (1<=S<=pivot) or (i=n)
     i=i+1
     h=(n,l-3,3)#KAM ASE
     alpha={0,1}i-l#KAM ASE
     S=BoundedSAT(f----)#KAM ASE
-    if (|S|>pivot)|| S=0)
+    if ((S>pivot) or S=0)
        return null
     else
         k = math.pow(2,i-1)
