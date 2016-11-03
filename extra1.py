@@ -27,4 +27,30 @@ def find_median(c):
             return int((srt[ leng / 2 ] + srt[ leng / 2 - 1]) / 2.0 )   # // is used in newer versions of python
         return int(srt[ leng / 2 ] )
 
+
+
+def ApproxMcCore(F,pivot):
+    S = BoundedSAT(F,pivot+1)#KAM ASE,FOR THE BEING LEAVE IT
+    if (|S|<=pivot)
+    return |S|
+    else
+    floor = math.flr
+    ln = math.log
+    
+    l = int(floor*ln(pivot)-1)
+    i=l-1
+    while (1<=S<=pivot)||(i=n)
+    i=i+1
+    h=(n,l-3,3)#KAM ASE
+    alpha={0,1}i-l#KAM ASE
+    S=BoundedSAT(f----)#KAM ASE
+    if (|S|>pivot)|| S=0)
+       return null
+    else
+        k = math.pow(2,i-1)
+        return k
+         
+    
+    
+
     

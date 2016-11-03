@@ -44,7 +44,7 @@ if __name__ == '__main__':
     t=computeiter_count(delta)  
 
     while (counter<t) :
-        c=ApproxMcCore(F,pivot)#To be define #Pisot koribo lagibo
+        c=ApproxMcCore(F,pivot)
         counter = counter+1
         if c!=1:
             AddToList(C,c)#To be define
