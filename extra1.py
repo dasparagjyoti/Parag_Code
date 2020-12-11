@@ -3,7 +3,7 @@ def compute_threshold(epsilon):
     x = pow(e,0.5)
     y = (1+1/epsilon)
     z = math.pow(y,2)
-    e_value = math.pow(e,0.5)#what is e value please check
+    e_value = math.pow(e,0.5)
     final=3*e*z
     P = int(ceiling(final)) 
 
@@ -30,7 +30,7 @@ def find_median(c):
 
 
 def ApproxMcCore(F,pivot):
-    S = BoundedSAT(F,pivot+1)#KAM ASE,FOR THE BEING LEAVE IT
+    S = BoundedSAT(F,pivot+1)
     if (|S|<=pivot)
     return |S|
     else
@@ -41,9 +41,9 @@ def ApproxMcCore(F,pivot):
     i=l-1
     while (1<=S<=pivot) or (i=n)
     i=i+1
-    h=(n,l-3,3)#KAM ASE
-    alpha={0,1}i-l#KAM ASE
-    S=BoundedSAT(f----)#KAM ASE
+    h=(n,l-3,3)
+    alpha={0,1}i-l
+    S=BoundedSAT(f----)
     if ((S>pivot) or S=0)
        return null
     else
